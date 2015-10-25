@@ -1,15 +1,18 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Assignment 2. This function creates a special "matrix" object that can cache its inverse.
+## it returns a square matrix named matriu
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+matriu<- matrix(24:32,3,3) 
+matriu
 
 }
 
 
-## Write a short comment describing this function
+## Return a matrix that is the inverse of 'x'
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+  minv<-solve(matriu)
+  minv
+  
 }
